@@ -59,7 +59,7 @@ async function getComapnyData(companyLink){
 (async () => {
     // console.log(location)
     // const response = await fetch(`https://script.google.com/macros/s/AKfycby8T6BFSlmcTG-wuWMWK-a5CGEEKvYFmoTeGNNQm8e01pYC8feuK0taBU_EOc1NpvYYpQ/exec?type=linkedin&location=${location}`);
-    const response = await fetch('https://script.google.com/macros/s/AKfycbw6iVcHzvAjGAwuiOYWnRiZQaMxxKeiF0_23F3K9eDTAB32ZWwxjAr5-4ozMlKqVlYieA/exec');
+    const response = await fetch('https://script.google.com/macros/s/AKfycbzDQOcXzd-pENpuI2Dj3O2JDMlapGSBJTqyDHB8STGd-zOqgMR9Rq_yMP-Ay72-NS1g/exec');
     const urls = await response.json();
     console.log(urls.length)
     let result = {}
@@ -94,7 +94,7 @@ async function getComapnyData(companyLink){
             'data': result,
             // 'location': location
         })
-        const response = await fetch("https://script.google.com/macros/s/AKfycbykhEXZEg-144m8Fje9-O88N_pIch9P91xEfdeSMRQOTgdlfQBZ8zg0mw91XqTImsto/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbyYVdBrZlIBmiZMGR6rpNYVqlXFIaXjVGuu5xu-QZHA4jLnbQ1dQdmJvJGoH2lyP9FM/exec", {
         // const response = await fetch("https://script.google.com/macros/s/AKfycbwom6N1wuQgsBEZj-rSsbWZyKqROXfpVqKjxFOWRRb_jkrPQ4Uzj4mRwT_TbenwaoKgpg/exec", {
             method: 'POST',
             headers: {
