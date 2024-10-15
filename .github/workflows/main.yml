@@ -22,8 +22,8 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: 'Linkedin Profile Scraper'
+      working-directory: 'B2B-Lead-Generation-main/B2B-Lead-Generation-main/Linkedin Profile Scraper'
       
     - name: Run Puppeteer script
       run: node LinkedinScraper.js ${{ github.event.inputs.location }}
-      working-directory: 'Linkedin Profile Scraper'
+      working-directory: 'B2B-Lead-Generation-main/B2B-Lead-Generation-main/Linkedin Profile Scraper'
